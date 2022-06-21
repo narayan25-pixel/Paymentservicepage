@@ -1,0 +1,53 @@
+.headerclass{
+    background-color: rgba(93, 187, 206, 0.616);
+    color:white;
+    
+}
+.midsectionclass{
+    /* z-index: -1; */
+}
+.middlesectionsvg{
+    /* background-color: rgba(93, 187, 206, 0.616); */
+    /* overflow: visible; */
+    /* vertical-align:0%; */
+}
+.cardsectionclass{
+    background-color: rgba(93, 187, 206, 0.616); 
+}
+
+.cardsectionsvg{
+    background-color: #5dbbce9d ;
+}
+/* #carouselExampleIndicators{
+    height: 10vh;
+} */
+
+img{
+    width: 100%;
+}
+
+/* .carousel-inner{
+    width:100%;
+    max-height: 200px !important;
+  } */
+
+  .imageclass{
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+  }
+ .imageclass img{
+      max-width: 100%;
+      max-height: 100%;
+  }
+  .carouselcontainer{
+      padding: 2rem;
+  }
+
+  .carousel-control-prev-icon{
+      background-image: url(./images/leftArrow.png);
+  }
+  .carousel-control-next-icon{
+      background-image: url(./images/rightArrow.png);
+  }
